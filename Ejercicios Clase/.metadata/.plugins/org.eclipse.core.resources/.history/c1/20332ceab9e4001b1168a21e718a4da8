@@ -1,0 +1,26 @@
+package com.lambda.paso6;
+
+public class TestPaso6 {
+
+	public static void main(String[] args) {
+		double operando1 = 4;
+		double operando2= 3;
+		double resultado = operacion(operando1, operando2,(a,b)->a-b);
+		System.out.println("Resultado:"+ resultado);
+
+	}
+	
+	
+	private static double operacion(double operando1,double operando2, ICalculadora calculadora) {
+		return calculadora.operacion(operando1, operando2);
+	}
+	
+	
+
+}
+
+@FunctionalInterface 
+
+interface ICalculadora {
+	public double operacion(double operando1, double operando2);
+}

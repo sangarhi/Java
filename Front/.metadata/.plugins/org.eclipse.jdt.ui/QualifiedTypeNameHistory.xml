@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.front.pTipoAnt.dao.DriverManagerMySQL"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="dao.FileDao"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="com.front.pTipoAnt.dao.DireccionDAO"/>
+    <fullyQualifiedTypeName name="com.front.pTipoAnt.data.Direccion"/>
+    <fullyQualifiedTypeName name="com.front.pTipoAnt.bussines.ServDireccion"/>
+    <fullyQualifiedTypeName name="com.front.pDireccion.dao.DireccionDAO"/>
+    <fullyQualifiedTypeName name="com.front.pDireccion.dao.interfaces.IDAO"/>
+    <fullyQualifiedTypeName name="com.front.pDireccion.common.exceptions.ServicioException"/>
+    <fullyQualifiedTypeName name="com.front.pDireccion.common.exceptions.DAOException"/>
+    <fullyQualifiedTypeName name="com.front.pDireccion.common.exceptions.TipoException"/>
+    <fullyQualifiedTypeName name="com.front.pDireccion.controller.DireccionesController"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletException"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="com.front.pDireccion.bussines.ServDireccion"/>
+    <fullyQualifiedTypeName name="com.front.pDireccion.data.Direccion"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="com.front.rrhhSandra.common.exceptions.ServicioException"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+    <fullyQualifiedTypeName name="com.front.rrhhSandra.dao.RegionDAO"/>
+    <fullyQualifiedTypeName name="com.front.rrhhSandra.common.exceptions.TipoException"/>
+    <fullyQualifiedTypeName name="com.front.rrhhSandra.data.Region"/>
+    <fullyQualifiedTypeName name="com.front.pDireccion.data.Region"/>
+    <fullyQualifiedTypeName name="com.front.pDireccion.bussines.ServPais"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

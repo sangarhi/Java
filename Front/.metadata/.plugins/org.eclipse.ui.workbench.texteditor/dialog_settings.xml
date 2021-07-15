@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="true"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="Eliminar"/>
+		<list key="findhistory">
+			<item value="Modificar"/>
+			<item value="modificar"/>
+			<item value="pais"/>
+			<item value="Pais"/>
+			<item value="paises"/>
+			<item value="Paises"/>
+			<item value="Direccion"/>
+			<item value="direccion"/>
+			<item value="direcciones"/>
+			<item value="Direcciones"/>
+			<item value="Long"/>
+			<item value="getLong"/>
+			<item value="setLong"/>
+			<item value="Calle"/>
+		</list>
+		<list key="replacehistory">
+			<item value="Eliminar"/>
+			<item value="eliminar"/>
+			<item value="region"/>
+			<item value="Region"/>
+			<item value="regiones"/>
+			<item value="Regiones"/>
+			<item value="Rregiones"/>
+			<item value="Pais"/>
+			<item value="pais"/>
+			<item value="paises"/>
+			<item value="Paises"/>
+			<item value="String"/>
+			<item value="getString"/>
+			<item value="setString"/>
+			<item value="Nombre"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1041"/>
+		<item key="DIALOG_Y_ORIGIN" value="357"/>
+		<item key="DIALOG_WIDTH" value="336"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="892"/>
+		<item key="DIALOG_Y_ORIGIN" value="497"/>
+	</section>
+</section>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.lang.Long"/>
+    <fullyQualifiedTypeName name="com.proyecto.dao.DepartamentoDAO"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="com.proyecto.dao.exceptions.DAOException"/>
+    <fullyQualifiedTypeName name="com.proyecto.dao.exceptions.TipoException"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Type"/>
+    <fullyQualifiedTypeName name="java.sql.Types"/>
+    <fullyQualifiedTypeName name="com.proyecto.data.Departamento"/>
+    <fullyQualifiedTypeName name="com.proyecto.dao.interfaces.IDAO"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+    <fullyQualifiedTypeName name="com.proyecto.dao.DriverManagerMySQL"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="com.proyecto.dao.DireccionDAO"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.proyecto.dao.PaisDAO"/>
+    <fullyQualifiedTypeName name="com.proyecto.data.Direccion"/>
+</qualifiedTypeNameHistroy>

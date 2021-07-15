@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\Sandra\Downloads\pexceptions.zip"/>
+		<item value="C:\Users\Sandra\Downloads\nestedClassesProfe.zip"/>
+		<item value="C:\Users\Sandra\Downloads\ioProfe.zip"/>
+		<item value="C:\Users\Sandra\Downloads\excepcionesProfe.zip"/>
+		<item value="C:\Users\Sandra\Downloads\enumeradosProfe.zip"/>
+		<item value="C:\Users\Sandra\Downloads\pmetodos.zip"/>
+		<item value="C:\Users\Sandra\Downloads\fechaHora(1).zip"/>
+		<item value="C:\Users\Sandra\Downloads\pfechaHora.zip"/>
+		<item value="C:\Users\Sandra\Downloads\fechaHora.zip"/>
+		<item value="C:\Users\Sandra\Downloads\genericosProfe.zip"/>
+		<item value="C:\Users\Sandra\Downloads\tiposClase(1).zip"/>
+		<item value="C:\Users\Sandra\Downloads\base.zip"/>
+		<item value="C:\Users\Sandra\Downloads\pbase.zip"/>
+		<item value="C:\Users\Sandra\Downloads\ej_UML_proyecto1.zip"/>
+		<item value="C:\Users\Sandra\Downloads\pTipoAnt.zip"/>
+		<item value="C:\Users\Sandra\Downloads\herenciaAvanzadaProfe.zip"/>
+		<item value="C:\dev\Java - POO\Workspace"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\Sandra\Downloads\lambda2.zip"/>
+			<item value="C:\Users\Sandra\Downloads\ioProfe(1).zip"/>
+			<item value="C:\Users\Sandra\Downloads\svarios.zip"/>
+			<item value="C:\Users\Sandra\Downloads\pficheros.zip"/>
+			<item value="C:\Users\Sandra\Downloads\pvarios.zip"/>
+			<item value="C:\Users\Sandra\Downloads\lambdaProfe.zip"/>
+			<item value="C:\Users\Sandra\Downloads\pnesteclasses.zip"/>
+			<item value="C:\Users\Sandra\Downloads\nestedClassesProfe.zip"/>
+			<item value="C:\Users\Sandra\Downloads\constructoresProfe.zip"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="857"/>
+		<item key="DIALOG_Y_ORIGIN" value="409"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

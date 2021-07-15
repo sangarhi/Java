@@ -1,0 +1,38 @@
+package contruccion_singleton;
+
+public class Casa {
+	
+	private int numHabitaciones;
+	private int numBaños;
+	
+	public Casa() {
+		super();
+	}
+
+	public Casa(int numHabitaciones, int numBaños) {
+		super();
+		this.numHabitaciones = numHabitaciones;
+		this.numBaños = numBaños;
+	}
+
+	public int getNumHabitaciones() {
+		return numHabitaciones;
+	}
+
+	public void setNumHabitaciones(int numHabitaciones) {
+		this.numHabitaciones = numHabitaciones;
+	}
+
+	public int getNumBaños() {
+		return numBaños;
+	}
+
+	public void setNumBaños(int numBaños) {
+		this.numBaños = numBaños;
+	}
+	
+	
+	
+	
+
+}

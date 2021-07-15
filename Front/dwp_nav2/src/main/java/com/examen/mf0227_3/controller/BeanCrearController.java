@@ -1,0 +1,77 @@
+package com.examen.mf0227_3.controller;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.log4j.Logger;
+
+import com.examen.mf0227_3.bussines.Servicio;
+import com.examen.mf0227_3.bussines.interfaces.IServicio;
+import com.examen.mf0227_3.common.Tipo;
+import com.examen.mf0227_3.common.exceptions.ServicioException;
+import com.examen.mf0227_3.data.Bean;
+
+@WebServlet("/bean/crear")
+public class BeanCrearController extends HttpServlet {
+
+	private static final Logger log = Logger.getLogger(BeanCrearController.class);
+
+	IServicio<Long, Bean> servicio;
+
+	public BeanCrearController() {
+		super();
+		this.servicio = new Servicio();
+
+	}
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		log.debug("doGet");
+		
+		req.setAttribute("tipos", Tipo.values());
+
+		RequestDispatcher rd = getServletContext().getRequestDispatcher("/beanCrear.jsp");
+
+		rd.forward(req, resp);
+	}
+
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		log.info("doPost");
+		try {
+
+			
+			String nombre = req.getParameter("nombre");
+			Long tipo = Long.valueOf(req.getParameter("tipo"));
+			crearBean(nombre, tipo);
+			log.info("elemento creado");
+
+		} catch (ServicioException e) {
+			log.error(e.getMessage(), e);
+		}
+
+		RequestDispatcher rd = getServletContext().getRequestDispatcher("/");
+
+		rd.include(req, resp);
+
+	}
+
+	private void crearBean( String nombre, Long tipo) throws ServicioException {
+		Bean bean = new Bean();
+
+		
+		bean.setNombre(nombre);
+		bean.setTipo(tipo);
+		
+		this.servicio.create(bean);
+		
+		
+	}
+
+}

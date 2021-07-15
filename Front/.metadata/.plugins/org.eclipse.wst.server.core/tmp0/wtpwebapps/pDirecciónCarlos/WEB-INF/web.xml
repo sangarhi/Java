@@ -1,0 +1,42 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+     http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+     version="3.1">
+  <servlet>
+    <servlet-name>DireccionesController</servlet-name>
+    <servlet-class>com.front.pDireccion.controller.DireccionesController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DireccionController</servlet-name>
+    <servlet-class>com.front.pDireccion.controller.DireccionController</servlet-class>
+  </servlet>
+  
+   <!-- <servlet>
+    <servlet-name>PaisesController</servlet-name>
+    <servlet-class>com.front.pDireccion.controller.PaisesController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PaisController</servlet-name>
+    <servlet-class>com.front.pDireccion.controller.PaisController</servlet-class>
+  </servlet> -->
+  
+  <servlet-mapping>
+    <servlet-name>DireccionesController</servlet-name>
+    <url-pattern>/direcciones</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>DireccionController</servlet-name>
+    <url-pattern>/direccion</url-pattern>
+  </servlet-mapping>
+  <!-- <servlet-mapping>
+    <servlet-name>PaisesController</servlet-name>
+    <url-pattern>/paises</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PaisController</servlet-name>
+    <url-pattern>/pais</url-pattern>
+  </servlet-mapping> -->
+  
+</web-app>

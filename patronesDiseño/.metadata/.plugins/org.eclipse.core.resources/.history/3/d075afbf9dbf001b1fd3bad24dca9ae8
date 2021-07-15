@@ -1,0 +1,14 @@
+package contruccion_singleton;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String nombre = "clase";
+		Singleton clase = Singleton.getSingletonInstance(nombre);
+		
+		System.out.println(clase);
+
+	}
+
+}

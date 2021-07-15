@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\dev\Java - POO\Ejercicios Clase\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1319988043.index
+\pTipoAnt\src\test
+C:\dev\Java - POO\Ejercicios Clase\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1002114303.index
+\pTipoAnt\src\test

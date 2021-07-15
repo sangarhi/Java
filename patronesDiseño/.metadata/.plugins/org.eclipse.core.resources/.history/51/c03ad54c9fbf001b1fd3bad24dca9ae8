@@ -1,0 +1,24 @@
+package contruccion_singleton;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		/*String nombre = "clase";
+		Singleton clase = Singleton.getSingletonInstance(nombre); // Para crear una instancia
+		
+		System.out.println(clase);*/
+		
+		Casa casa1 = new Casa();
+		int numHabitaciones = 3;
+		int numBaños = 2;
+		
+		Casa casa2 = new Casa(numHabitaciones, numBaños);
+		
+		System.out.println(casa1);
+		System.out.println(casa2);
+		
+
+	}
+
+}
